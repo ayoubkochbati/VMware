@@ -1,0 +1,368 @@
+2V0-01.19.31q 
+Number: 2V0-01.19 
+Passing Score: 800 
+Time Limit: 120 min 
+2V0-01.19 
+  
+Website: https://vceplus.com 
+VCE to PDF Converter: https://vceplus.com/vce-to-pdf/ 
+Facebook: https://www.facebook.com/VCE.For.All.VN/ Twitter : https://twitter.com/VCE_Plus 
+ 
+   https://vceplus.com/ 
+VMware vSphere 6.7 Foundations Exam 2019 Exam A 
+QUESTION 1 
+Which two components are built into the vCenter Server Appliance 6.x? (Choose two.) 
+A.	vSphere Auto Deploy 
+B.	vCenter Converter 
+C.	vRealize Orchestrator 
+D.	VMware vSphere Update Manager 
+Correct Answer: AD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.install.doc/GUID-78933728-7F02-43AF-ABD8-0BDCE10418A6.html 
+QUESTION 2 
+VMware vRealize Log Insight can be configured to send notification events to which endpoint? 
+A.	vRealize Configuration Manager 
+B.	vRealize Operations Manager 
+C.	vRealize Infrastructure Navigator 
+D.	vCenter Server 
+Correct Answer: B Section: (none) Explanation 
+Explanation/Reference: 
+Reference: https://docs.vmware.com/en/vRealize-Log-Insight/4.3/com.vmware.log-insight.administration.doc/GUID-B22BCAC6-D1D5-40B3931C9F0FAA799D41.html 
+QUESTION 3 
+Which two scenarios can cause a VM to appear orphaned in the vSphere Web Client? (Choose two.) 
+     https://vceplus.com/ 
+A.	The VM was removed from the vCenter Server. 
+B.	The VM had an unsuccessful migration within a vSphere DRS cluster. 
+C.	The ESXi host had an unsuccessful failover event in vSphere HA. 
+D.	The VM was unregistered from the ESXi host directly. 
+Correct Answer: CD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://pubs.vmware.com/vsphere-60/index.jsp?topic=%2Fcom.vmware.vsphere.troubleshooting.doc%2FGUID-BFD8C9BC-30FB-4A92AFEC2FC9FF387920.html 
+QUESTION 4 
+What are two requirements needed to enable a 4 vCPU virtual machine with Fault Tolerance? (Choose two.) 
+A.	vSphere Enterprise Plus license 
+B.	1 GbE uplink for FT logging network 
+C.	vSphere Standard license 
+D.	10 GbE uplink for FT logging network 
+Correct Answer: AD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.avail.doc/GUID-57929CF0-DA9B-407A-BF2E-E7B72708D825.html QUESTION 5 
+A vSphere administrator has been tasked with ensuring that 500 virtual desktops are unable to communicate with one another, but can communicate with required services. 
+Which two solutions does VMware recommend? (Choose two.) 
+A.	vSphere Host Firewall 
+B.	Private VLAN 
+C.	VMware NSX Distributed Firewall 
+D.	Port Filtering 
+Correct Answer: BC 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+QUESTION 6 
+One of your virtual machines (VM) has performance issues and sometimes is unresponsive. 
+Which VM file must be checked in order to find the root cause? 
+A.	vpxd.log 
+B.	ds.log 
+C.	vminst.log 
+D.	vmware.log 
+Correct Answer: D 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+QUESTION 7 
+Which two choices are valid ways to patch an ESXi host? (Choose two.) 
+A.	vRealize Operations Manager 
+B.	vSphere Update Manager 
+C.	configuring a Host Profile 
+D.	utilizing the esxcli Command Line Interface 
+Correct Answer: BD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://kb.vmware.com/s/article/2020972 
+QUESTION 8 
+Which three installation methods are supported for a guest operating system within a virtual machine? (Choose three.) 
+A.	ISO image from the datastore 
+B.	CD-ROM 
+C.	ISO image from a Content Library 
+D.	ISO image from an external FTP Server 
+E.	ISO image from Update Manager repository 
+Correct Answer: ABD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+QUESTION 9 
+When using vSAN, all the storage characteristics are specified by Storage Policies. 
+Which parameter in vSAN Storage Policies can increase performance in a cache miss situation? 
+A.	Number of failures to tolerate 
+B.	Number of disk stripes per object 
+C.	Force provisioning 
+D.	Object space reservation (%) 
+Correct Answer: B
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://blogs.vmware.com/virtualblocks/2016/09/19/vsan-stripes/ 
+QUESTION 10 
+A vSphere administrator uses vMotion to migrate a virtual machine between two ESXi hosts and notices that they can no longer ping the VM. 
+What is the cause? 
+A.	The destination host has an incorrect VLAN tag on the virtual machine port group for the VM. 
+B.	The destination host has two port groups with the same VLAN tag. 
+C.	There is an MTU mismatch. 
+D.	The virtual machine has RDMs attached. 
+Correct Answer: B 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+QUESTION 11 
+A vSphere administrator notices that sometimes they receive poor network throughput for multiple port groups that reside on a vSwitch with multiple physical uplinks (vmnics). The configuration on the ESXi host is identical to other hosts that are working properly in the same cluster. 
+What should be done next? 
+A.	Add additional port groups the vSwitch. 
+B.	Add additional resources to the virtual machines that are powered on. 
+C.	Restart Management agents in ESXi Direct Console User Interface (DCUI). 
+D.	Alter the failover order of the vmnics until a bad vmnic is found. 
+Correct Answer: B 
+Section: (none) 
+Explanation 
+ 
+https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.monitoring.doc/GUID-C4EA86FD-95CB-4DE7-A9E3-63F6BFC1A268.html 
+QUESTION 12 
+A vSphere administrator sees the alarm: vSphere HA virtual machine failed to failover 
+This occurred for a number of virtual machines on a particular ESXi host in a cluster with vSphere High Availability (HA) enabled. The virtual machines guest operating systems never reported a power event. 
+What occurred? 
+A.	The virtual machines were vMotioned off of the ESXi host. 
+B.	The ESXi host failed and vSphere HA successfully failed over the virtual machines. 
+C.	The previous virtual machine cloning operations failed to complete. 
+D.	The ESXi host is still running but has disconnected from the network. 
+Correct Answer: B 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+QUESTION 13 
+What three steps are necessary to enable Jumbo Frames for use with an iSCSI storage array? (Choose three.) 
+A.	Configure the MTU on the VMKernel port. 
+B.	Configure the MTU on the virtual switch. 
+C.	Configure the MTU on the physical switch. 
+D.	Configure the MTU on the LAG group. 
+E.	Configure the MTU on the VTEP. 
+Correct Answer: ABC 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.networking.doc/GUID-53F968D9-2F91-41DA-B7B2-48394D997F2A.html 
+
+QUESTION 14 
+A vSphere Administrator is tasked with implementing a production VMware vSAN cluster and has followed the design and sizing guide to correctly size the environment. 
+Which two requirements represent valid VMware recommendations? (Choose two.) 
+A.	A disk group must be composed of more than one cache disk and at least one capacity disk. 
+B.	All-Flash configurations do not require a caching tier. 
+C.	A disk group must be composed of one cache disc and at least one capacity disk. 
+D.	The cache tier should be sized to no less than 10% of the capacity tier. 
+Correct Answer: CD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+QUESTION 15 
+What is required to create a vSphere Distributed Switch? (Choose two.) 
+     https://vceplus.com/ 
+A.	vSphere Enterprise Plus licensing is required. 
+B.	Login to the ESXi Host with the Root account. 
+C.	A minimum of two physical uplinks is required. 
+D.	The host is added to a vCenter Server. 
+Correct Answer: AD 
+Section: (none) 
+Explanation 
+https://kb.vmware.com/s/article/1010555 
+QUESTION 16 
+Which three steps deploy a virtual machine from a VM Template in the Content Library? (Choose three.) 
+A. Right-click a VM Template and select New VM from This Template. 
+B.	In the vSphere Web Client navigator, select vCenter Inventory Lists > VM templates in Folders. 
+C.	Using vSphere Host client, select vCenter Inventory Lists > Content Libraries. 
+D.	In the vSphere Web Client navigator, select vCenter Inventory Lists > Content Libraries. 
+E.	Select a Content Library, click Related Objects tab and click Templates. 
+Correct Answer: ACD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-6EA309BC-9113-449C-B668-ACBB363485C3.html 
+QUESTION 17 
+When trying to export the vApp to the OVF, the option is grayed out. 
+What solution allows for the export of a vApp? 
+A.	The vApp is marked as Non-Exportable. 
+B.	Logout of the vSphere Client and use the vSphere WebClient. 
+C.	Change the portgroup where the VMs are connected to. 
+D.	PowerOff the vApp. 
+Correct Answer: D 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference https://communities.vmware.com/thread/408957 
+
+QUESTION 18 
+Which two formats are supported for exporting a VM to a storage media? (Choose two.) 
+A.	EXE 
+B.	OVF 
+C.	OVA 
+D.	ISO 
+Correct Answer: BC 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.vm_admin.doc/GUID-AE61948B-C2EE-436E-BAFB-3C7209088552.html 
+QUESTION 19 
+Which two statements are true using Resource Pools? (Choose two.) 
+A.	Resource Pools require vSphere DRS to be enabled. 
+B.	Resource Pools compartmentalize all resource in a cluster. 
+C.	Resource Pools compartmentalize all resources in a datacenter. 
+D.	Resource Pools require vSphere HA to be enabled. 
+Correct Answer: AB 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://communities.vmware.com/thread/145338 
+QUESTION 20 
+Which two resource types can be limited on the vApp level? (Choose two.) 
+A.	Network 
+B.	CPU 
+C.	Storage 
+D.	Memory 
+Correct Answer: BD 
+Section: (none) 
+Explanation 
+https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.vm_admin.doc%2FGUID-9902FD4C-4727-43F7-
+AEAF901DA4CB4D60.html 
+QUESTION 21 
+Which three virtual hardware configurations will allow snapshots? (Choose three.) 
+A.	16+ vCPU 
+B.	full memory reservation 
+C.	Physical Mode RDMs 
+D.	Virtual Mode RDMs 
+E.	bus sharing 
+Correct Answer: ABD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.vm_admin.doc/GUID-53F65726-A23B-4CF0-A7D5-48E584B88613.html 
+QUESTION 22 
+A vSphere administrator is required to apply security hardening policies following the VMware vSphere Hardening Guide recommendations.  
+Which tool enables native compliance reporting for these guidelines? 
+A.	VMware vCenter Server 
+B.	VMware vRealize Operations Manager 
+C.	VMware vSphere Update Manager 
+D.	VMware AirWatch 
+Correct Answer: B 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://docs.vmware.com/en/vRealize-Operations-Manager/6.5/com.vmware.vcom.core.doc/GUID-1DE5F654-A59E-4DA0-A294-AE7676AEE267.html QUESTION 23 
+A vSphere administrator takes a snapshot before logging into a VM to preserve the current state in case of a problem. 
+Assuming this process is repeated every day for over 30 days, what two results will happen? (Choose two.) 
+A.	The virtual machine’s performance will decrease. 
+B.	The virtual machine can end up consuming more space on the datastore than assigned. 
+C.	The administrator will have backups for the entire month. 
+D.	The administrator has successfully cloned the VM 30 times. 
+Correct Answer: AB 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://kb.vmware.com/s/article/1025279 
+QUESTION 24 
+Which three options are available when applying a customization Specification to an existing virtual machine? (Choose three.) 
+A.	Create a specification 
+B.	Import a specification 
+C.	Modify a specification 
+D.	Select an existing specification. 
+E.	Create a specification from an existing specification. 
+Correct Answer: ABD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.vm_admin.doc/GUID-EB5F090E-723C-4470 B640-50B35D1EC016.html 
+
+
+
+
+QUESTION 25 
+Which state does VMware recommend an ESXi host be in before removing the ESXi host from a DRS cluster? 
+A.	Powered off 
+B.	Quarantine mode 
+ 
+C.	Disconnected 
+D.	Maintenance mode 
+Correct Answer: D 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://pubs.vmware.com/vsphere-4-esx-vcenter/index.jsp?topic=/com.vmware.vsphere.bsa.doc_40/vc_admin_guide/ managing_hosts_in_vcenter_server/t_remove_a_host_from_a_cluster.html 
+QUESTION 26 
+Which three actions allow a VMware vSphere 6.x administrator to view vSphere log files? (Choose three.) 
+A.	Analyze the vSphere logs from the vRealize Log Insight user interface. 
+B.	Download the vSphere log bundles from the Direct Console User Interface (DCUI). 
+C.	Download the vSphere log bundles from vSphere Web Client connected to a vCenter Server system. 
+D.	View the vSphere log files from the vSphere Web Client Log Browser. 
+E.	Analyze the vSphere logs from the vRealize Operations user interface. 
+Correct Answer: ACD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+QUESTION 27 
+A vSphere administrator wants to migrate a virtual machine with vMotion from one node to another in the same cluster, but when the destination server is specified, an error message is displayed. 
+What might be wrong? (Choose two.) 
+A.	The destination host does not have access to the shared datastore. 
+B.	The hosts are licensed for vSphere Essentials Plus. 
+C.	The cluster is configured for EVC and the hosts are of the same processor family. 
+D.	The hosts have a dedicated vMotion VMKernel interface configured. 
+E.	The source host is not licensed for vMotion. 
+Correct Answer: AD 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+QUESTION 28 
+Which two options are available when migrating a powered off VM and relocating the attached disks? (Choose two.) 
+A.	Raw Device Mapping Virtual compatibility 
+B.	Same format as source 
+C.	Thick Provision Eager Zeroed 
+D.	Raw Device Mapping Physical compatibility 
+Correct Answer: BC 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.vcenterhost.doc/GUID-23E67822-4559-4870-982A-BCE2BB88D491.html 
+QUESTION 29 
+A VMware vSphere 6.x administrator is implementing a new eight-node cluster for business critical applications. Each server will be configured with two 10 GbE network adapters and will utilize iSCSI for storage on one subnet. 
+Which feature is required to implement this solution? 
+A.	Storage DRS 
+B.	Network I/O Control 
+C.	VMKernel Port Binding 
+D.	LACP 
+Correct Answer: C 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://kb.vmware.com/s/article/2038869 
+QUESTION 30 
+Which two options are valid to create vApp in the vSphere Environment? (Choose two.) 
+A.	Login using vSphere C# Client to the ESXi host, right click on the host and select Create new vApp. 
+B.	Login using vSphere Host Client to the ESXi host, right click on the host and select Create new vApp. 
+C.	Login using vSphere  WebClient to the vCenter Server, right click on the Cluster and select Create new vApp. 
+D.	Login using vSphere  WebClient to the vCenter Server, right click on the standalone ESXi host and select Create new vApp. 
+Correct Answer: BC 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+QUESTION 31 
+Which function key command will allow a vSphere administrator to access ESXi shell? 
+A.	Alt + F12 
+B.	Alt + F1 
+C.	Alt + F2 
+D.	Alt + F11 
+Correct Answer: B 
+Section: (none) 
+Explanation 
+Explanation/Reference: 
+Reference: https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vcli.migration.doc_50%2Fcos_upgrade_technote.1.4.html      https://vceplus.com/ 
